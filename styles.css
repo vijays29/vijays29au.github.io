@@ -1,0 +1,156 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #e0f7fa;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+nav ul li a.button {
+    background-color: #00bcd4;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#about .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.intro {
+    max-width: 600px;
+    text-align: left;
+}
+
+.intro h1, .intro h2 {
+    margin: 5;
+}
+
+.intro h1 {
+    color: #00bcd4;
+}
+
+.intro p {
+    margin: 20px 0;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.btn-container {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    background-color: #00bcd4;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0097a7;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-links img {
+    width: 32px;
+}
+
+.profile-pic img {
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Keep the height the same as the width to make it square */
+    object-fit: cover; /* Ensures the image covers the entire area */
+    border-radius: 100%; /* Makes the image circular, remove if you want it square */
+    border: 5px solid #ccc; /* Optional: Adds a border around the image */
+}
+
+#education {
+    background-color: #e0f7fa;
+    padding: 60px 0;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.entry {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill img {
+    width: 64px;
+    height: 64px;
+}
+
+footer {
+    background-color: #00bcd4;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
